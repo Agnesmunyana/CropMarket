@@ -1,0 +1,54 @@
+img {
+  width: 100%;
+}
+.pictures {
+  margin-left: 10%;
+  width: 10%;
+  height: 15%;
+  padding-top: 5px;
+  border: medium none;
+  vertical-align: middle;
+}
+
+.landing {
+  position: relative;
+  background: url("../img2/wow.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+.tab {
+  background-color: dodgerblue;
+  width: 30%;
+  height: 100%;
+  margin-left: 0px;
+  text-align: center;
+  padding-left: 1px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+.form-control::placeholder {
+  color: #bbb !important;
+}
